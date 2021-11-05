@@ -6478,7 +6478,7 @@ var AreaQuery = (function () {
     			h2.textContent = "Location Selector";
     			t1 = space();
     			create_component(select_1.$$.fragment);
-    			add_location(h2, file, 77, 0, 1395);
+    			add_location(h2, file, 77, 0, 1396);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6569,7 +6569,7 @@ var AreaQuery = (function () {
     		}); // handle the error
     	}
 
-    	const getOptionLabel = option => option[0] + (option[2] ^ option[0].match(/\d/) ? '' : ' (region)');
+    	const getOptionLabel = option => option[0] + (!option[2] ^ option[0].match(/\d/) ? '' : ' (region)');
     	const getSelectionLabel = option => option[0];
     	const writable_props = ['selection'];
 

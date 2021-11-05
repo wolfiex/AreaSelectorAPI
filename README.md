@@ -1,6 +1,9 @@
 # AreaSelectorAPI
 Svelte Area Selector | Postcode API 
 
+## Create the db
+
+`python PostSQL.py`
 
 
 ## How to run
@@ -24,7 +27,8 @@ This opens the server at localhost port 5002
 
 
 
-##  Open console
+
+##  Open console output
 `cmd + alt + I` and the selected code will be printed. 
 
 

@@ -64,7 +64,7 @@ function handleSelect(event) {
 
 
 	const optionIdentifier = 0;
-	const getOptionLabel = (option) => option[0]  + ((option[2] ^ option[0].match(/\d/))
+	const getOptionLabel = (option) => option[0]  + ((!option[2] ^ option[0].match(/\d/))
 	?'':' (region)') ;
 	const getSelectionLabel = (option) => option[0];
 
