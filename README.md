@@ -3,6 +3,7 @@ Svelte Area Selector | Postcode API
 
 
 
+## How to run
 
 Operating instructions:
 
@@ -14,8 +15,18 @@ This opens the server at localhost port 5002
 
 `http://127.0.0.1:5002/`
 
-2. run the svelte demo:
+2. In a new terminal run the svelte demo:
 
 `cd selector && npm run dev`
 
 3. open `http://127.0.0.1:5000/` and play. 
+
+
+
+
+##  Open console
+`cmd + alt + I` and the selected code will be printed. 
+
+
+To recieve / return this use `bind:select={your variablename}`
+in the component definition.   
